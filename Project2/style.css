@@ -1,0 +1,326 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(fonts/OpenSans.ttf);
+}
+@font-face {
+  font-family: Open Sans2;
+  src: url(fonts/OpenSans2.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100vw;
+  background-color: #020a18;
+}
+.menu {
+  display: flex;
+  max-width: 100vw;
+  height: 100px;
+  border-radius: 10px;
+  backdrop-filter: blur(200px);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 160px;
+}
+.nav_link {
+  font-family: "Open Sans";
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.small_title {
+  max-width: 265px;
+  height: 29px;
+  color: #3a68b8;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.big_title {
+  max-width: 604px;
+  min-height: 142px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+.info_about_page {
+  max-width: 558px;
+  height: 87px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.buttons_in_first_page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.button_info {
+  margin-top: 50px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: #3a68b8;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button_info2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: #3a68b8;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-items: center;
+}
+
+.main_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 128px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 197px;
+}
+.text_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo_panel {
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 256px;
+}
+.page_2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 68px;
+  margin-bottom: 264px;
+}
+.big_title_page2 {
+  max-width: 484px;
+  min-height: 104px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+.info_about_page2 {
+  max-width: 460px;
+  min-height: 78px;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.page_3 {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 243px;
+}
+.card_info {
+  border-radius: 10px;
+  backdrop-filter: blur(200px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) -41.902%,
+    rgba(255, 255, 255, 0.1) 115.681%
+  );
+  width: 362px;
+  height: 389px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.title_card {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.text_card {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.info_block_page_4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 221px;
+}
+.text_info_block_page_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title_page4 {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 548px;
+  min-height: 104px;
+  margin-bottom: 20px;
+}
+.text_info_page4 {
+  max-width: 460px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.footer_page_4 {
+  border-radius: 10px;
+
+  backdrop-filter: blur(200px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) -41.902%,
+    rgba(255, 255, 255, 0.05) 260.236%
+  );
+  max-width: 100vw;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 31px;
+}
+.title_block {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 9px;
+}
+.info_page_4 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about_story {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 250;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.left_block {
+  width: 362px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.middle_block {
+  width: 362px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.right_block {
+  width: 362px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mail {
+  display: flex;
+  gap: 9px;
+}
+.phone {
+  display: flex;
+  gap: 9px;
+}
+.adress {
+  display: flex;
+  gap: 9px;
+}
