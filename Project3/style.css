@@ -40,6 +40,8 @@ img {
   display: flex;
   align-items: center;
   gap: 63px;
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
 }
 .text_title {
   display: flex;
@@ -114,8 +116,7 @@ img {
   transition: 0.2s;
 }
 .products_card:hover {
-  transition: transform 0.2s;
-  transform: scale(1.05);
+  background: rgba(58, 56, 56, 0.86);
 }
 .text_in_card {
   padding: 24px;
@@ -167,4 +168,65 @@ img {
   margin-top: 48px;
   margin-bottom: 60px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .title {
+    background: rgb(241, 228, 230);
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    padding-left: calc(50% - 384px);
+    padding-right: calc(50% - 384px);
+  }
+  .text_title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .the_brand {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .of_luxerios {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .fashion {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .man_page {
+    width: 386px;
+    height: 368px;
+  }
+  .four_pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 232px);
+    gap: 20px;
+    margin-top: 65px;
+    margin-bottom: 110px;
+  }
+  .center {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+  }
+  .browse_all_Product {
+    margin-top: 32px;
+    margin-bottom: 60px;
+  }
 }
