@@ -17,12 +17,20 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.button_with_drop:hover .pop-up_window {
+  transition: 0.3s;
+  display: block;
 }
 .dropbtn {
   background: none;
   border: none;
   cursor: pointer;
+  transition-duration: all 0.3s;
 }
+
 .nav_link {
   padding: 10px;
 }
@@ -35,6 +43,54 @@ img {
   display: flex;
   gap: 13px;
   align-items: center;
+}
+.pop-up_window {
+  width: 232px;
+  height: 634px;
+  background-color: rgb(229, 229, 229);
+  position: absolute;
+  display: none;
+  transition-duration: all 0.3s;
+}
+.title_pop_up_window {
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 32px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding-top: 11px;
+}
+.title_menu_pop-up {
+  color: rgb(241, 109, 127);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 32px;
+}
+.link_in__pop-up {
+  color: rgb(111, 110, 110);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 53.5px;
 }
 .title {
   background: rgb(241, 228, 230);
